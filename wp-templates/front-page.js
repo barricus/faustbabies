@@ -10,7 +10,6 @@ import {
   Hero,
   SEO,
 } from '../components';
-import 'styles/bootstrap.css'
 
 export default function Component() {
   const { data } = useQuery(Component.query, {
